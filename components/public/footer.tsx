@@ -105,7 +105,7 @@ export function Footer() {
         <Divider my="lg" />
 
         <Text ta="center" size="xs" c="dimmed">
-          © {new Date().getFullYear()} ศูนย์ร่มโพธิ์ร่มไทรวัยดอกลำดวน
+          © {new Date().getFullYear() + 543} ศูนย์ร่มโพธิ์ร่มไทรวัยดอกลำดวน
           สงวนลิขสิทธิ์
         </Text>
       </Container>
