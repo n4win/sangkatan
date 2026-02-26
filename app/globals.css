@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@layer mantine, mantine-datatable;
+
+:root {
+  --main-color: #4c6ef5;
+  --sub-color: #4c6ef51a;
+  --color-white: #fff;
+  --color-black: #000;
+  --main-text: #333333;
+  --colum-text: #6a6a6a;
+}
+
+.activeTheme {
+  transition: transform 50ms ease-in-out;
+}
+
+.activeTheme:active {
+  transform: scale(0.97);
+}
